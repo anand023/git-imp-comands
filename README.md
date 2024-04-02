@@ -14,6 +14,7 @@
 > git config --global credential.helper manager
 
 ## git checkout error Filename too long
-1. git config --global core.longpaths true OR
-2. git config --system core.longpaths true
+>  git config --global core.longpaths true
+**OR**
+>  git config --system core.longpaths true
 --system will set the variables for all users on the system, but what we are looking for is to the set it for currently logged in user.
